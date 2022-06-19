@@ -29,7 +29,7 @@ Instance attributes are defined inside the `__init__` method when the class is d
 `        self.b = b`<br>
 `        self.c = c`<br>
 `instanceName = ClassName(1,'abc',True)`<br>
-Instance attributes are created when an object of the class is created with attributes passed as arguments.
+Instance attributes are created when an object of the class is created with attributes passed as values of the Instance arguments.
 
 5. What does the term &quot;self&quot; in a Python class mean?<br>
 Ans.<br>The first argument of every class method is always a reference to the current instance of the class. By convention, this argument is always named self. In the init method, self refers to the newly created object; in other class methods, it refers to the instance whose method was called.
