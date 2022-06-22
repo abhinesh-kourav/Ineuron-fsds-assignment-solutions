@@ -16,11 +16,13 @@ Composition is a concept that models a has a relationship. It enables creating c
 Ans.<br>
 A bound method is the one which is dependent on the instance of the class as the first argument. It passes the instance as the first argument which is used to access the variables and functions.<br>
 Example: `func` is a bound method.
-`class A:`<br>
-`    def func(self, arg):`<br>
-`        self.arg = arg`<br>
-`        print("Value of arg = ", arg)`<br>
-`obj = A()`
+```
+class A:
+    def func(self, arg):
+        self.arg = arg
+        print("Value of arg = ", arg)
+obj = A()
+```
 
 5. What is the purpose of pseudoprivate attributes?<br>
 Ans.<br>
